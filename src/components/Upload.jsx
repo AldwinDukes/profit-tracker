@@ -6,10 +6,15 @@ export function UploadImage() {
     const file = e.target.files[0];
 
     if (file) {
-      console.log("Uploading:", file.name);
+      console.log("Uploading...");
       await ocrSpace(file);
     }
   };
 
-  return <input type="file" accept="image/*" onChange={handleUpload} />;
+  return (
+    <>
+      <input type="file" accept="image/*" onChange={handleUpload} />
+      <p>detail</p>
+    </>
+  );
 }
