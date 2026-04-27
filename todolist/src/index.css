@@ -1,0 +1,114 @@
+:root {
+  --btn-bg: rgba(92, 65, 244);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.flex-align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-align-start-column {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+.flext-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-font-color {
+  color: #fff;
+}
+
+.mainContainer {
+  border: 1px solid blue;
+  height: 100vh;
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+.innerContainer {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 30rem;
+  width: 30rem;
+}
+
+.input-btn-container {
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.input {
+  border-radius: 3px;
+  padding: 10px;
+  width: 90%;
+}
+.button-add {
+  background-color: var(--btn-bg);
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 10px 12px;
+}
+.list-parent-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.list-container {
+  background-color: rgb(242, 241, 241);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+.text-list {
+  text-transform: capitalize;
+  /* Text will never wrap to the next line */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-del-btn {
+  padding: 17px;
+  background-color: orangered;
+  border-radius: 3px;
+  border: none;
+}
+.clearAll-container {
+  width: 100%;
+}
+.clearAll-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--btn-bg);
+}

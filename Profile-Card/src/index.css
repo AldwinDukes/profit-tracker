@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mainContainer {
+  width: 50rem;
+  border: 2px solid black;
+}
+
+.wrap {
+  padding: 2rem;
+}
+
+.img-profile {
+  width: 100%;
+}
+
+.profile-name {
+  font-size: 2.2rem;
+}
+
+.profile-bio {
+  font-size: 1.3rem;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+.list {
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
